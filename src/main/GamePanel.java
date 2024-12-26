@@ -19,7 +19,7 @@ public class GamePanel extends JPanel implements Runnable {
     KeyHandler keyH = new KeyHandler();
     Thread gameThread;
 
-    // set players default position
+    // set players default position and speed
     int playerX = 100;
     int playerY = 100;
 
